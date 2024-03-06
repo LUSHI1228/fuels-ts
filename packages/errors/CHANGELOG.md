@@ -1,5 +1,13 @@
 # @fuel-ts/errors
 
+## 0.76.1
+
+### Patch Changes
+
+- 🐞 fix: disallow transferring <= 0 amounts, by [@Dhaiwat10](https://github.com/Dhaiwat10) (See [#1827](https://github.com/FuelLabs/fuels-ts/pull/1827))
+- - Handling `SqueezedOut` status update when calling `submitAndAwait` subscription at `Provider.sendTransaction`
+  - Handling `SqueezedOut` status update when calling statusChange subscrition at `TransactionResponse.waitForResult`, by [@Torres-ssf](https://github.com/Torres-ssf) (See [#1829](https://github.com/FuelLabs/fuels-ts/pull/1829))
+
 ## 0.76.0
 
 ## 0.75.0
